@@ -14,17 +14,17 @@ Setup
 
 * Add the following lines to your `_config.yml` file for Jekyll:
 
-    # BibTeX Citation plugin
-    citation:
-        citation_style: apa
-        citation_locale: en
+<pre><code># BibTex Citation plugin
+citation:
+    citation_style: apa
+    citation_locale: en</code></pre>
 
 * Optionally, you can use other citation styles encoded in the [Citation Style Language (CSL)](http://citationstyles.org/). The entire CSL 1.0 Style Repository is available on Github at [citation-style-language/styles](https://github.com/citation-style-language/styles). For example, if you wanted to use the Chicago Manual of Style "author-date" format, you would save [this file](https://github.com/citation-style-language/styles/raw/master/chicago-author-date.csl) locally to `_plugins` and change your `_config.yml` to read:
 
-    # BibTex Citation plugin
-    citation:
-        citation_style: _plugins/chicago-author-date.csl
-        citation_locale: en
+<pre><code># BibTex Citation plugin
+citation:
+    citation_style: _plugins/chicago-author-date.csl
+    citation_locale: en</code></pre>
 
 Usage
 -----
@@ -63,7 +63,7 @@ As a result you would get the following output (dependent on the templates you u
     
     <p>This is an example citation of Brothman's 1991 article.</p>
     
-    <p><p>Brothman, B. (1991). Orders of value: probing the theoretical terms of Archival Practice. <i>Archivaria</i>, <i>32</i>(1).</p>
+    <p>Brothman, B. (1991). Orders of value: probing the theoretical terms of Archival Practice. <i>Archivaria</i>, <i>32</i>(1).</p>
 
 License
 -------
