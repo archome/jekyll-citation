@@ -28,7 +28,7 @@ module Jekyll
 
     def render(context)
       # get the content of the {% bibtex %} block
-      content = super.join
+      content = super
       @config = context.registers[:site].config['citation'] || {}
       @config['citation_style'] ||= 'apa'
       @config['citation_locale'] ||= 'en'
